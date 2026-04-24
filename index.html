@@ -1,17 +1,60 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Mi primera web</title>
+    <title>Matias | Programador</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial;
+            background: linear-gradient(135deg, #1f1f1f, #2c3e50);
+            color: white;
+            text-align: center;
+        }
+
+        .card {
+            margin-top: 100px;
+            background: #34495e;
+            padding: 30px;
+            border-radius: 15px;
+            display: inline-block;
+        }
+
+        h1 {
+            margin-bottom: 10px;
+        }
+
+        button {
+            background: #00ffcc;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background: #00ccaa;
+        }
+    </style>
 </head>
 <body>
 
-    <h1>Hola, soy Matias 👋</h1>
-    <p>Estoy aprendiendo programación</p>
+    <div class="card">
+        <h1>Hola, soy Matias 👋</h1>
+        <p>Programador en formación 💻</p>
 
-    <h2>Mis proyectos</h2>
-    <ul>
-        <li>Calculadora en Python</li>
-    </ul>
+        <h3>Mis proyectos:</h3>
+        <p>✔ Calculadora en Python</p>
+
+        <br>
+        <button onclick="saludo()">Saludar</button>
+    </div>
+
+    <script>
+        function saludo() {
+            alert("¡Vamos con toda Matias! 🚀");
+        }
+    </script>
 
 </body>
 </html>
