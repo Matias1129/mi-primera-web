@@ -52,21 +52,22 @@ Mi primera página web hecha con HTML
         <h2>Sobre mí</h2>
         <p>Tengo 16 años y estoy aprendiendo programación. Me enfoco en mejorar cada día y construir proyectos reales.</p>
     </div>
-
     <div class="card">
-        <h2>Proyectos</h2>
-        <p>
-            🔗 <a href="https://github.com/Matias1129/calculadora-pro-python" target="_blank">
-            Calculadora en Python
-            </a>
-        </p>
-    </div>
+    <h2>Contacto</h2>
 
-    <div class="card">
-        <h2>Contacto</h2>
-        <p>Email: tuemail@gmail.com</p>
-    </div>
-</section>
+    <p>📧 Email: 
+        <a href="mailto:matiasvillegas112009@gmail.com">
+            matiasvillegas112009@gmail.com
+        </a>
+    </p>
 
-</body>
-</html>
+    <br>
+
+    <button onclick="window.open('https://github.com/Matias1129')">
+        Ver mi GitHub
+    </button>
+</div>
+
+  
+
+    
