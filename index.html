@@ -8,53 +8,63 @@
             font-family: Arial;
             background: linear-gradient(135deg, #1f1f1f, #2c3e50);
             color: white;
+        }
+
+        header {
             text-align: center;
+            padding: 50px;
+        }
+
+        section {
+            padding: 30px;
+            max-width: 800px;
+            margin: auto;
         }
 
         .card {
-            margin-top: 100px;
             background: #34495e;
-            padding: 30px;
-            border-radius: 15px;
-            display: inline-block;
-        }
-
-        h1 {
-            margin-bottom: 10px;
-        }
-
-        button {
-            background: #00ffcc;
-            border: none;
-            padding: 10px 20px;
+            padding: 20px;
             border-radius: 10px;
-            cursor: pointer;
-            font-size: 16px;
+            margin-bottom: 20px;
         }
 
-        button:hover {
-            background: #00ccaa;
+        a {
+            color: #00ffcc;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
 
+<header>
+    <h1>Hola, soy Matias 👋</h1>
+    <p>Programador en formación 💻</p>
+</header>
+
+<section>
     <div class="card">
-        <h1>Hola, soy Matias 👋</h1>
-        <p>Programador en formación 💻</p>
-
-        <h3>Mis proyectos:</h3>
-        <p>✔ Calculadora en Python</p>
-
-        <br>
-        <button onclick="saludo()">Saludar</button>
+        <h2>Sobre mí</h2>
+        <p>Tengo 16 años y estoy aprendiendo programación. Me enfoco en mejorar cada día y construir proyectos reales.</p>
     </div>
 
-    <script>
-        function saludo() {
-            alert("¡Vamos con toda Matias! 🚀");
-        }
-    </script>
+    <div class="card">
+        <h2>Proyectos</h2>
+        <p>
+            🔗 <a href="https://github.com/Matias1129/calculadora-pro-python" target="_blank">
+            Calculadora en Python
+            </a>
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>Contacto</h2>
+        <p>Email: tuemail@gmail.com</p>
+    </div>
+</section>
 
 </body>
 </html>
